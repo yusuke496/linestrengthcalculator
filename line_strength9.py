@@ -71,13 +71,6 @@ def d3(f0,mf0,j0,i0,l0,s0,f1,mf1,j1,i1,l1,s1):
                         d+=clebsch(i0,j0,f0,mi0,mj0,mf0)*clebsch(i1,j1,f1,mi1,mj1,mf1)*d2(j0,mj0,l0,s0,j1,mj1,l1,s1)
     return d
 
-#i=4.5
-#s=1
-#j0=2
-#l0=1
-#j1=3
-#l1=2
-
 def ButtonEvent(event):
     ic = EditBox_nuclearspin.get()
     #ic=input("nuclear spin I:")
