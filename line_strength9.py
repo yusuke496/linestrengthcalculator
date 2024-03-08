@@ -78,7 +78,6 @@ def d3(f0,mf0,j0,i0,l0,s0,f1,mf1,j1,i1,l1,s1):
 #j1=3
 #l1=2
 
-
 def ButtonEvent(event):
     ic = EditBox_nuclearspin.get()
     #ic=input("nuclear spin I:")
